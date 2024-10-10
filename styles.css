@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #caa4e3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: white;
+}
+
+header .menu-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.main-section {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+}
+
+.main-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-section h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.model-section {
+    background-color: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.model-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.model-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.config-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.config-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.config-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer small {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+}
