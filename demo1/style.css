@@ -3,12 +3,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #E8E1FF; /* Warna latar yang mirip */
+    background-color: #ffe1e1; /* Warna latar background */
     font-family: 'Arial', sans-serif;
 }
 
 .calculator {
-    background-color: #1E1F38; /* Warna latar kalkulator */
+    background-color: #381e1e; /* Warna latar kalkulator */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -21,7 +21,7 @@ body {
     text-align: right;
     padding: 15px;
     margin-bottom: 20px;
-    background-color: #1C1C30; /* Warna latar belakang display */
+    background-color: #301c1c; /* Warna latar belakang display */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -35,7 +35,7 @@ body {
 }
 
 button {
-    background-color: #4A4A6A; /* Warna tombol default */
+    background-color: #6a4a4a; /* Warna tombol default */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #5E5E85; /* Warna tombol saat hover */
+    background-color: #855e5e; /* Warna tombol saat hover */
 }
 
 .zero {
@@ -55,13 +55,13 @@ button:hover {
 }
 
 button:nth-child(1) {
-    background-color: #AC68F2; /* Warna tombol "AC" */
+    background-color: #f26868; /* Warna tombol "AC" */
 }
 
 button:nth-child(2), button:nth-child(3), button:nth-child(4) {
-    background-color: #7456B9; /* Warna tombol operasi */
+    background-color: #b95656; /* Warna tombol operasi */
 }
 
-button:nth-child(16) {
-    background-color: #875AF9; /* Warna tombol "=" */
+button:nth-child(18) {
+    background-color: #f95a5a; /* Warna tombol "=" */
 }
