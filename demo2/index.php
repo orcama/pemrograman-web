@@ -15,7 +15,6 @@ function cetakBilangan($n) {
     }
 }
 
-// Contoh penggunaan fungsi
-$n = 24; // Input bilangan bulat positif
+$n = 24; // Input ke-n bilangan bulat positif
 cetakBilangan($n);
 ?>

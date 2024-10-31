@@ -8,22 +8,26 @@ require_once 'classes/SepedaMotor.php';
 use Classes\Mobil;
 use Classes\SepedaMotor;
 
-$mobil = new Mobil("Toyota", 2024, 4);
-echo $mobil->move(); // Outputs: The car is driving!
-echo "\n";
-echo $mobil->getNumDoors(); // Outputs: This car has 4 doors.
-echo "\n";
-echo $mobil->startEngine(); // Outputs: Engine started!
-echo "\n";
-echo $mobil; // Outputs: Vehicle: Toyota, Year: 2024
+$mobil = new Mobil("Toyota", 2024, 4, 4);
+echo $mobil->move(); 
+echo "<br>";
+echo $mobil->getNumDoors(); 
+echo "<br>";
+echo $mobil->startEngine(); 
+echo "<br>";
+echo $mobil->getWheels();
+echo "<br>";
+echo $mobil; 
 
-echo "\n\n";
+echo "<br><br>";
 
-$sepedaMotor = new SepedaMotor("Kawasaki", 2024, true);
-echo $sepedaMotor->move(); // Outputs: The motorcycle is riding!
-echo "\n";
-echo $sepedaMotor->getSideCars(); // Outputs: This motorcycle has a sidecar.
-echo "\n";
-echo $sepedaMotor->startEngine(); // Outputs: Engine started!
-echo "\n";
-echo $sepedaMotor; // Outputs: Vehicle: Kawasaki, Year: 2024
+$sepedaMotor = new SepedaMotor("Kawasaki", 2024, true, 2);
+echo $sepedaMotor->move(); 
+echo "<br>";
+echo $sepedaMotor->getSideCars(); 
+echo "<br>";
+echo $sepedaMotor->startEngine(); 
+echo "<br>";
+echo $sepedaMotor->getWheels();
+echo "<br>";
+echo $sepedaMotor; 
